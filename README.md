@@ -22,6 +22,7 @@ $("#newproject_popup").jwPopup({ top: 50 });
 You can pass only one option as key/value object to jwPopup() method. It is possible to modify defaults directly at jWueryPopup.js file.
 
 *Name* - top
+
 *Description* - Top-Space inside jwPopup around the window. 
 
 ##Dependencies
