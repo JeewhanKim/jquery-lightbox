@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8" />
+ 	<title>jWuery Popup Test Page</title>
+ 	<link rel="stylesheet" href="jwpopup.css">
+ 	<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+ 	<script type="text/javascript" src="jWueryPopup.js"></script>
+ 	<script>
+ 	$(function(){
+ 		$("#newproject_popup").jwPopup({ top: 50 });
+ 	});
+ 	</script>
+</head>
+<body>
+	<div class="test_form">
+		<a href="#newproject_popup_form" id="newproject_popup">jWuery Popup Test</a>
+	</div>
+
+	<div class="jwpopup_letter" id="newproject_popup_form">
+		<div class="jwpopup_title">New Project</div>
+		<div class="jwpopup_contents">
+			<div class="jwpopup_left">Project Number</div>
+			<div class="jwpopup_right" id="new_project_number_div">20140002</div>
+			<div class="jwpopup_left">Client</div>
+			<div class="jwpopup_right">
+				<div class="jwpopup_selectbox" id="new_project_client">
+					<select>
+						<option></option>
+					</select>
+				</div>
+			</div>
+			<div class="jwpopup_left">Project Name</div>
+			<div class="jwpopup_right">
+				<div class="jwpopup_inputbox">
+					<input type="text" id="new_project_name" name="new_project_name" />
+				</div>
+			</div>
+		</div>
+		<div class="jwpopup_button_add" id="new_project_add">Add</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,147 @@
+/* ===================================================
+ * jwpopup.css v1.0
+ * ===================================================
+ * Copyright 2013 CMYKPLUSWHITE, Inc.
+ * Dec 19. 2013, Jeewhan Kim
+ * =================================================== */
+
+body {
+	font-family: 'Helvetica Neue';
+}
+
+.jwpopup-overlay {
+	position: fixed;
+    z-index:9999;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    display: none;
+}
+
+.jwpopup_letter {
+	width: 1180px;
+	min-height: 100px;
+	padding-bottom: 2px;
+	background-color: #FFF;
+	display: none;
+
+	box-shadow: 4px 4px 6px 3px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 4px 4px 6px 3px rgba(0,0,0,0.3);
+	-moz-box-shadow: 4px 4px 6px 3px rgba(0,0,0,0.3);
+}
+
+.jwpopup_title {
+	padding-top: 45px;
+	padding-bottom: 45px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	color: #000;
+}
+
+.jwpopup_button,
+.jwpopup_button_add {
+	width: 60px;
+	margin: 45px auto;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	color: #f1cc4b;
+	cursor: pointer;
+}
+
+.jwpopup_contents {
+	width: 690px;
+	height: 160px;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 12px;
+}
+.jwpopup_left {
+	float: left;
+	width: 140px;
+	height: 45px;
+	text-align: right;
+	padding-top: 5px;
+}
+.jwpopup_right {
+	float: left;
+	width: 415px;
+	margin-right: 135px;
+	height: 50px;
+	text-align: center;
+}
+.jwpopup_selectbox { 
+	float: right;
+	cursor: pointer;
+	width: 411px;
+	height: 27px;
+	background-image: url("../img/popup_selectbox.jpg");
+}
+
+.jwpopup_selectbox select { 
+	width: 411px; 
+	height: 27px; 
+	font-size:16px; 
+	font-weight: 200;
+	line-height: 24px;
+	padding: 0;
+	margin: 0; 
+	background: none; 
+	outline: none;
+	border: 0; 
+	border-radius: 0;
+	text-align: left;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	text-indent: 0.01px;
+    text-overflow: '';
+}
+
+.jwpopup_inputbox {
+	float: right;
+	cursor: pointer;
+	width: 411px;
+	height: 27px;
+}
+
+.jwpopup_right input {
+	font-family: 'Helvetica Neue';
+	font-weight: 200;
+	font-size: 8px; 
+
+	width: 398px;
+	margin: 0; 
+	padding: 0; 
+	
+	text-align: center;
+	color:#000;
+	outline: none; 
+	border:0; 
+	background: none;
+	box-shadow: none;
+}
+
+/* New Project Popup */
+#new_project_name {
+	height: 16px;
+	border: 1px solid rgb(216, 216, 216);
+	font-size: 12px;
+	text-align: left;
+}
+#new_project_number {
+	padding-top: 5px;
+}
+#new_project_client select{
+	font-size: 12px;
+	margin-top: 1px;
+	padding-left: 5px;
+	
+}
+/* New Project Popup End */
+
+/* New Schedule Pop Up End */
